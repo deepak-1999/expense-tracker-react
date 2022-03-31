@@ -108,7 +108,11 @@ input[type='number'] {
   width: 100%;
 }
 
-.btn:focus,
+.btn:disabled {
+  background-color: #ffdcf3ac;
+  color: black;
+}
+
 .delete-btn:focus {
   outline: 0;
 }
